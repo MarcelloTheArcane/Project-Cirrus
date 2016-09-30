@@ -16,7 +16,7 @@ desktop app; login, then have easy access to online music. needs to have a good 
               features such as favourites, whats popular, and playlists. 
               could also integrate other services, such as DB so users can add their own music.
               
-              Atom.io could be used to build this, creates nice UI.
+              *Atom.io could be used to build this, creates nice UI.*
               
    
-
+SERVER: use a ubuntu instance with docker, to host webserver etc. S3 for storage.
