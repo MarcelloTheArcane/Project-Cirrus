@@ -12,4 +12,11 @@ website is fairly simple, just needs a front end, then perhaps somewhere they ha
 
 
 
-desktop app; login, then have easy access to online music. needs to have a good UI, like spotify.
+desktop app; login, then have easy access to online music. needs to have a good UI, like spotify. 
+              features such as favourites, whats popular, and playlists. 
+              could also integrate other services, such as DB so users can add their own music.
+              
+              Atom.io could be used to build this, creates nice UI.
+              
+   
+
