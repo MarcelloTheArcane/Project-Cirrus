@@ -2,13 +2,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://projectcirrus.stream/index.html</loc>
-    <lastmod>2016-10-03</lastmod>
+    <lastmod>2016-10-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://projectcirrus.stream/images/free_logo_8.svg</loc>
-    <lastmod>2016-10-03</lastmod>
+    <loc>http://projectcirrus.stream/player.html</loc>
+    <lastmod>2016-10-05</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://projectcirrus.stream/images/project-cirrus.svg</loc>
+    <lastmod>2016-10-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
