@@ -1,0 +1,18 @@
+{
+  "name": "myapp.helloworldapp",
+  "version": "0.0.1",
+  "description": "A hello world Node webkit app",
+  "main": "index.html",
+  "window": {
+    "toolbar":true,
+    "position":"center",
+    "width":1080,
+    "height":720
+  },
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT"
+}

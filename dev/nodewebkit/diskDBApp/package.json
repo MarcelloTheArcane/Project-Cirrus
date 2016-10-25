@@ -1,0 +1,21 @@
+{
+  "name": "diskdbapp",
+  "version": "0.0.1",
+  "description": "A diskDB Node webkit app",
+  "main": "index.html",
+  "window": {
+    "title": "diskDB app",
+    "toolbar":true,
+    "width":1920,
+    "height":720,
+    "position": "center"
+},
+  "scripts":{
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependancies": {
+    "diskdb": "^0.1.12"
+  }
+}
