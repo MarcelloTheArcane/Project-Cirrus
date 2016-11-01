@@ -1,0 +1,13 @@
+{
+    "start_url": "http://vps312653.ovh.net/",
+    "short_name": "Project Cirrus",
+    "icons": [
+        {
+            "src": "https://s3-eu-west-1.amazonaws.com/projectcirrus/assets/logos/1.png",
+            "sizes": "500x500"
+        }
+    ],
+    "display": "fullscreen",
+    "orientation": "any",
+    "name": "projectcirrus"
+}
