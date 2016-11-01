@@ -1,7 +1,0 @@
-node_modules/
-src/dist
-cache/
-build/dist
-
-npm-debug.log
-.eslintcache
