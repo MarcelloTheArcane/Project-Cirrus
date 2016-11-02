@@ -13,9 +13,6 @@
         <param name="android-package" value="com.manifoldjs.hostedwebapp.HostedWebApp" />
         <param name="onload" value="true" />
     </feature>
-    <feature name="NetworkStatus">
-        <param name="android-package" value="org.apache.cordova.networkinformation.NetworkManager" />
-    </feature>
     <allow-intent href="market:*" />
     <name>ProjectCirrus</name>
     <description>
