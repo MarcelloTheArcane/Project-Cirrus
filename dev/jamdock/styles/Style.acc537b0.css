@@ -17,7 +17,7 @@ body, html {
 }
 
 body {
-    font: 100% Trebuchet MS, Arial, Helvetica, sans-serif;
+    font-family: : "Poppins", sans-serif;
     background: #fafafa;
     margin: 0;
     padding: 0;
@@ -106,7 +106,7 @@ span.apiversion {
 }
 
 .codesyntax {
-    font-family: "Courier New"
+    font-family: "Ubuntu"
 }
 
 .beer {
@@ -1533,7 +1533,7 @@ a.button, a.buttonimg {
 }
 
 span.code {
-    font-family: "Courier New", Courier, mono;
+    font-family: "Ubuntu", Courier, mono;
     font-size: 11px
 }
 
@@ -1547,7 +1547,7 @@ span.code {
 
 a.button {
     color: #6e6e6e;
-    font: 700 12px Helvetica, Arial, sans-serif;
+    font: 700 12px 'Poppins, Arial, sans-serif;
     padding: 6px 12px;
     position: relative;
     -webkit-transition: border-color .218s;
@@ -1588,7 +1588,7 @@ a.buttonimg {
 }
 
 input, select {
-    font-family: Calibri, Arial, Verdana;
+    font-family: 'Poppins', Arial, Verdana;
     padding: 5px
 }
 

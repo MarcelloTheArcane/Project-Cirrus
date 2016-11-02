@@ -3,7 +3,7 @@
         <form class="form" id="SettingsForm">
             <div class="subsection floatleft">
                 <h3 class="title">Login</h3> <label for="Username">Username <span class="red">*</span></label><br> <input type="text" id="Username" name="Username" class="large" ng-model="settings.Username"><br> <label for="Password">Password <span class="red">*</span></label><br>                <input type="password" id="Password" name="Password" class="large" ng-model="settings.Password"><br> <br>
-                  <div class="submit"> <a href="" class="button" ng-click="save()" title="Save Settings">Save</a> </div>
+                  <div class="submit"> <a href="" class="button" ng-click="save()" title="Login">Login</a> </div>
                 <!--<a href="#" class="button" id="action_RequestURL" title="Request Permission for Server URL">Enable URL</a><br />--><br>
                 <h3 class="title">Options</h3>
                 <br> <label for="Theme">Theme</label><br> <select id="Theme" name="Theme" class="large" ng-model="settings.Theme" ng-options="o for o in Themes"></select><br>
@@ -39,6 +39,7 @@
                         <div class="clear"></div> <span>Local Storage</span><br>
                         <div class="clear"></div>
                         <div class="inputwrap"><input type="checkbox" id="SaveTrackPosition" name="SaveTrackPosition" value="1" title="Saves Play Queue & Track Position Periodically (Uses HTML5: localStorage)" ng-model="settings.SaveTrackPosition"></div> <label for="SaveTrackPosition">Save Progress</label>                        </fieldset>
+                        <div class="submit"> <a href="" class="button" ng-click="save()" title="Save Settings">Save</a> </div>
                 </div>
                 <!--<div class="checkboxes">
                     <fieldset>
