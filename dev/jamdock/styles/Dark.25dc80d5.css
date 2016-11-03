@@ -1,5 +1,14 @@
+/* Variables */
+:root {
+  --main-body:#9BE9FF ;
+}
+
+
+
+/* Start of CSS */
+
 a:hover, body {
-    color: #C6C6C6
+    color: var(--main-body);
 }
 
 #content, body {
@@ -85,7 +94,7 @@ ul.tablist li {
 }
 
 #messages .message {
-    color: #d6d469;
+    color: #9BE9FF;
     background: #323232;
     border: 1px solid #1d1d1d
 }
@@ -186,11 +195,11 @@ ul.simplelist li {
 
 ul.simplelist li a {
     text-decoration: none;
-    color: #d6d469
+    color: #9BE9FF
 }
 
 #AZIndex #AZIndex li a, ul.simplelist li.index a {
-    color: #f2f2f2
+    color: #9BE9FF
 }
 
 ul.simplelist li:hover {
@@ -200,7 +209,9 @@ ul.simplelist li:hover {
 ul.simplelist li.index {
     background: #232323;
     border-bottom: 1px solid #171717;
-    color: #f2f2f2
+    color: #f2f2f2;
+    font-family: 'Poppins';
+    font-size: 14px;
 }
 
 #BreadCrumb, #BreadCrumb a {
@@ -299,7 +310,7 @@ ul.preferences li em {
 }
 
 label {
-    color: #ADFF2F
+    color: var(--main-body);
 }
 
 #donate {
