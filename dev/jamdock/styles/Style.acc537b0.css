@@ -17,7 +17,7 @@ body, html {
 }
 
 body {
-    font-family: : "Poppins", sans-serif;
+    font-family:'Ubuntu';
     background: #fafafa;
     margin: 0;
     padding: 0;
@@ -106,7 +106,7 @@ span.apiversion {
 }
 
 .codesyntax {
-    font-family: "Ubuntu"
+    font-family: 'Ubuntu';
 }
 
 .beer {
@@ -244,8 +244,6 @@ span.apiversion {
     height: 20px;
     opacity: .8
 }
-
-
 
 #content {
     background: #EDEDED;
@@ -486,6 +484,7 @@ ul.simplelist {
 }
 
 ul.simplelist li {
+    font-family: 'Ubuntu';
     font-size: 13px;
     cursor: pointer;
     padding: 6px 8px;
@@ -1235,7 +1234,7 @@ ul.songlist li:hover {
     height: 45px;
     margin: 0 10px 0 0;
     background: 0 0;
-    font-family: inherit;
+    font-family: 'Ubuntu';
     font-size: 10px;
     box-shadow: none;
     overflow: hidden
@@ -1533,7 +1532,7 @@ a.button, a.buttonimg {
 }
 
 span.code {
-    font-family: "Ubuntu", Courier, mono;
+    font-family: 'Ubuntu';
     font-size: 11px
 }
 
@@ -1547,8 +1546,8 @@ span.code {
 
 a.button {
     color: #6e6e6e;
-    font: 700 12px 'Poppins, Arial, sans-serif;
-    padding: 6px 12px;
+    font: 700 12px 'Ubuntu';
+ padding: 6px 12px;
     position: relative;
     -webkit-transition: border-color .218s;
     -moz-transition: border .218s;
@@ -1588,7 +1587,7 @@ a.buttonimg {
 }
 
 input, select {
-    font-family: 'Poppins', Arial, Verdana;
+    font-family: 'Ubuntu';
     padding: 5px
 }
 
