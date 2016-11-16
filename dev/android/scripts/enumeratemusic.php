@@ -1,7 +1,7 @@
 <?php
 /*Make connection database*/
 /*---------------------------------username----------------db_name*/
-$con = mysqli_connect("localhost", "achaado", "wp9sqxj97", "music");
+$con = mysqli_connect("localhost", "music", "wp9sqxj97", "music");
 
 /*check connection*/
 if (mysqli_connect_errno()) {
