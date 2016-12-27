@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        String url = "http://ec2-52-213-51-190.eu-west-1.compute.amazonaws.com/workspace/play/Bang_My_Head.m4a";
+        String url = "http://ec2-52-213-51-190.eu-west-1.compute.amazonaws.com/workspace/play/bensound-dubstep.mp3";
         if (Player.player == null)
             new Player();
         Player.player.playStream(url);
